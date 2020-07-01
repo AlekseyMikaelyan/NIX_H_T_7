@@ -1,4 +1,4 @@
 package org.example.solarsystem.solarsystemdata.entity;
 
-public class Saturn extends AbstractPlanet {
+public class Saturn extends AbstractPlanet<Saturn> {
 }
