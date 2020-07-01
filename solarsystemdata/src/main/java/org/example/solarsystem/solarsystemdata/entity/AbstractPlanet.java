@@ -3,7 +3,7 @@ package org.example.solarsystem.solarsystemdata.entity;
 public class AbstractPlanet {
     private double weight;
     private double radius;
-    public final double gravitationalConstant = 6.6720 * Math.pow(10.0, -11.0);
+    public static final double gravitationalConstant = 6.6720 * Math.pow(10.0, -11.0);
 
     public double getWeight() {
         return weight;
